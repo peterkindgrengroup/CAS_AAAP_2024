@@ -1,0 +1,15 @@
+plotProfile -m /mnt/e/bioinfo/side_quests/PETER/output/2024_TFs_PAS_multi500.gz --yMax 60 --numPlotsPerRow 2 -out 2024_TFs_PAS_2.png 
+#--numPlotsPerRow
+
+setwd("E:/bioinfo/side_quests/PETER")
+input_beds=$(ls /mnt/e/bioinfo/side_quests/PETER/beds/*.bed)
+input_bw=$(ls /mnt/e/bioinfo/side_quests/PETER/bigwigs/*.bw)
+
+computeMatrix scale-regions \
+-R $input_beds \
+-S $input_bw \
+-b 500 -a 500 \
+--unscaled5prime 150 \
+--unscaled3prime 150 \
+-bs 5 -p "max" --missingDataAsZero \
+--skipZeros -o '/mnt/e/bioinfo/side_quests/PETER/output/2024_TFs_PAS_multi500.gz' 
