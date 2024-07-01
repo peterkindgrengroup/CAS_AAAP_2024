@@ -6,7 +6,7 @@ Accesory code necessary deveolped by Bioinformatics UPSC group is available here
 
 ### Running title:
 #### Convergent antisense transcription primes plant AAAP transporter genes to be cold responsive.
-#### Vasiliki Zacharaki&1, Marti Quevedo&23, Sarah Nardeli Muniz&2, Shiv Kumar4, Elena Monte3 and Peter Kindgren*1
+#### Vasiliki Zacharaki&1, Marti Quevedo&23, Sarah Muniz Nardeli&2, Shiv Kumar4, Elena Monte3 and Peter Kindgren*1
 
 &Authors contributed equally
 * For correspondence: (Bioinfo) Marti Quevedo, marti.quevedo@cragenomica.es and Peter Kindgren, peter.kindgren@slu.se
